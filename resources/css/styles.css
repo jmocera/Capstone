@@ -1,185 +1,261 @@
-.headercontainer {
-    width: 100%;
-    height: 64px;
-}
-
-.header img {
-    padding-left: 24px;
-    height: 64px;
-    width: auto;
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 5px;
-}
-
-div .company {
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 1em;
-    font-family: verdana;
-}
-
-#colmar {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: black;
-}
-
-#academy {
-    display: inline-block;
-    font-size: 1.5rem;
-    color: lightslategray;
-    padding-left: 0px;
-}
-
-nav {
-    display: inline-block;
-    float: right;
-    font-family: helvetica;
-    padding-top: 1.5em;
-}
-
-nav a {
-    padding-right: 16px;
-}
-
-.maincontainer {
-    display: inline-block;
-    background-color: lightgray;
-    width: 100%;
-    vertical-align: top;
-}
-
-.mainimg img {
-    width: 60%;
-    display: inline-block;
-    margin-top: 32px;
-    padding-bottom: 32px;
-    float: left;
-    padding-left: 24px
-}
-
-.mainpara {
-    display: flex;
-    float: right;
-    flex-direction: column;
-    padding-left: 40px;
-    width: auto;
-}
-
-.mainpara h1 {
-    display: inline-block;
-    text-align: left;
-    font-size: 50px;
-    font-family: helvetica;
-    padding-top: 150px;
-    font-weight: 600
-}
-
-.mainpara h2 {
-    display: inline-block;
-    text-align: left;
-    font-size: 28px;
-    font-family: helvetica;
-    padding-top: 30px;
-    padding-bottom: 30px
-}
-
-.button {
-    display: inline-block;
-    text-align: center;
-    background-color: dimgray;
-    color: white;
-    font-family: helvetica;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-size: 18px;
-    width: 380px
-}
-
-.secondarycontainer {
-    display: inline-block;
-    width: 100%;
-}
-
-.leftimg,
-infopara {
-    display: flex;
-    flex-direction: column;
-}
-
-.leftimg img {
-    padding-top: 32px;
-    padding-left: 24px;
-    width: 60%;
-    display: inline-block;
-}
-
-.infopara h1 {
-    display: inline-block;
-    width: 60%;
-    padding-left: 24px;
-    padding-bottom: 24px;
-    font-family: helvetica;
-    font-size: 42px;
-    font-weight: 700;
-    float: left;
-}
-
-.infopara p {
-    display: inline-block;
-    width: 55%;
-    padding-left: 24px;
-    padding-bottom: 24px;
-    font-family: helvetica;
-    line-height: 1.75;
-    font-size: 16px;
-    float: left;
-}
-
-.infopara span {
-    display: inline-block;
-    width: 60%;
-    padding-left: 24px;
-    padding-bottom: 24px;
-    font-family: helvetica;
-    font-size: 16px;
-    font-weight: bold;
-    float: left;
-}
-
-.rightcontainer {
-    width: 423px;
-    float: right;
-    display: flex;
-    flex-flow: column;
-}
-
-.orientation {
-    float: right;
-    width: 423px;
-    vertical-align: top;
-}
-
-.guest {
-    float: right;
-    width: 423px;
-}
-
-.campus {
-    float: right;
-    width: 423px;
-}
-
-.orientation img {
-    width: 35%;
-}
-
-.guest img {
-    width: 35%;
-}
-
-.campus img {
-    width: 35%;
-}
+    .headercontainer {
+        width: 100%;
+        height: 64px;
+    }
+    
+    .header img {
+        padding-left: 24px;
+        height: 64px;
+        width: auto;
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 5px;
+    }
+    
+    div .company {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 1em;
+        font-family: verdana;
+    }
+    
+    #colmar {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    #academy {
+        display: inline-block;
+        font-size: 1.5rem;
+        color: lightslategray;
+        padding-left: 0px;
+    }
+    
+    nav {
+        display: inline-block;
+        float: right;
+        font-family: helvetica;
+        padding-top: 1.5em;
+    }
+    
+    nav a {
+        padding-right: 16px;
+    }
+    
+    .maincontainer {
+        display: inline-block;
+        background-color: lightgray;
+        width: 100%;
+        vertical-align: top;
+    }
+    
+    .mainimg img {
+        width: 60%;
+        display: inline-block;
+        margin-top: 32px;
+        padding-bottom: 32px;
+        float: left;
+        padding-left: 24px
+    }
+    
+    .mainpara {
+        display: flex;
+        float: right;
+        flex-direction: column;
+        padding-left: 40px;
+        width: auto;
+    }
+    
+    .mainpara h1 {
+        display: inline-block;
+        text-align: left;
+        font-size: 50px;
+        font-family: helvetica;
+        padding-top: 150px;
+        font-weight: 600
+    }
+    
+    .mainpara h2 {
+        display: inline-block;
+        text-align: left;
+        font-size: 28px;
+        font-family: helvetica;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    
+    .button {
+        display: inline-block;
+        text-align: center;
+        background-color: dimgray;
+        color: white;
+        font-family: helvetica;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 18px;
+        width: 380px
+    }
+    
+    .secondarycontainer {
+        display: flex;
+    }
+    
+    .leftcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    
+    .leftimg img {
+        padding-top: 32px;
+        padding-left: 24px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .infopara h1 {
+        display: flex;
+        width: 100%;
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-bottom: 24px;
+        font-family: helvetica;
+        font-size: 42px;
+        font-weight: 700;
+        float: left;
+    }
+    
+    .infopara p {
+        display: flex;
+        width: 80%;
+        padding-left: 24px;
+        padding-bottom: 24px;
+        font-family: helvetica;
+        line-height: 1.75;
+        font-size: 16px;
+        float: left;
+    }
+    
+    .infopara span {
+        display: flex;
+        width: 100%;
+        padding-left: 24px;
+        padding-bottom: 24px;
+        font-family: helvetica;
+        font-size: 16px;
+        font-weight: bold;
+        float: left;
+    }
+    
+    .secondarycontainer {
+        padding-bottom: 32px;
+    }
+    
+    .rightcontainer {
+        width: 35%;
+        float: right;
+        display: flex;
+        flex-direction: column;
+        padding-left: 48px;
+    }
+    
+    .orientation {
+        float: right;
+        padding-left: 16px;
+        padding-bottom: 16px;
+        padding-top: 32px;
+        border-left: 2px solid darkgray;
+        border-bottom: 2px solid darkgray;
+    }
+    
+    .guest {
+        float: right;
+        vertical-align: top;
+        padding: 16px 0px 16px 16px;
+        background-color: lightgray;
+        border-left: 2px solid darkgray;
+    }
+    
+    .campus {
+        float: right;
+        padding: 16px 0px 16px 16px;
+        border-left: 2px solid darkgray;
+    }
+    
+    .orientation img {
+        width: 35%;
+        float: left;
+        padding-right: 16px;
+    }
+    
+    .guest img {
+        width: 35%;
+        float: left;
+        padding-right: 16px;
+    }
+    
+    .campus img {
+        width: 35%;
+        float: left;
+        padding-right: 16px;
+    }
+    
+    .orientationtext p {
+        font-family: helvetica;
+        padding-bottom: 25px;
+        font-size: 14px
+    }
+    
+    .orientationtext h2 {
+        font-family: helvetica;
+        padding: 8px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .orientationtext span {
+        font-family: helvetica;
+        color: deepskyblue;
+        font-size: 14px;
+    }
+    
+    .campustext p {
+        font-family: helvetica;
+        padding-bottom: 25px;
+        font-size: 14px
+    }
+    
+    .campustext h2 {
+        font-family: helvetica;
+        padding: 8px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .campustext span {
+        font-family: helvetica;
+        color: deepskyblue;
+        font-size: 14px;
+    }
+    
+    .guesttext p {
+        font-family: helvetica;
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.75
+    }
+    
+    .guesttext h2 {
+        font-family: helvetica;
+        padding: 8px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .guesttext span {
+        font-family: helvetica;
+        color: deepskyblue;
+        font-size: 14px;
+    }

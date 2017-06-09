@@ -259,3 +259,43 @@
         color: deepskyblue;
         font-size: 14px;
     }
+.learningmain{
+    background-color: lightgray;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.learningcontainer{
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.containertitle h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: helvetica;
+    font-weight: bold;
+    display: block
+}
+.learningcontainer div{
+    width:31%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right 32px;
+    padding-bottom: 32px;
+    background-color: white;
+    margin-top: 32px
+}
+.learningcontainer img{
+    width: 100%;    
+}
+.learningcontainer h2,
+.learningcontainer p,
+.learningcontainer span{
+    margin-left: 16px;
+    font-family: helvetica;
+    margin-top: 8px;
+}

@@ -259,43 +259,149 @@
         color: deepskyblue;
         font-size: 14px;
     }
-.learningmain{
-    background-color: lightgray;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
+    .learningmain {
+        background-color: lightgray;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    
+    .learningcontainer {
+        padding-left: 24px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .containertitle h1 {
+        text-align: center;
+        font-size: 48px;
+        font-family: helvetica;
+        font-weight: bold;
+        display: block
+    }
+    
+    .learningcontainer div {
+        width: 31%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right 32px;
+        padding-bottom: 32px;
+        background-color: white;
+        margin-top: 32px
+    }
+    
+    .learningcontainer img {
+        width: 100%;
+    }
+    
+    .learningcontainer h2,
+    .learningcontainer p,
+    .learningcontainer span {
+        margin-left: 16px;
+        font-family: helvetica;
+        margin-top: 8px;
+    }
+    
+    .learningcontainer h2 {
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 8px;
+    }
+    
+    .learningcontainer p,
+    .learningcontainer span {
+        font-size: 18px;
+        color: gray;
+        padding-top: 8px;
+    }
+    
+    .textcontainer h2{
+        text-align: center;
+        font-size: 48px;
+        float: none;
+        font-family: helvetica;
+        font-weight: bold;
+        padding-top: 32px;
+        width: 100%;
+    }
+    
+    .leftbottomcontainer {
+        width: 60%;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+        float: left;
+        padding-bottom: 32px;
+    }
+    
+    .leftbottomcontainer video {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    
+    .leftbottomcontainer h3 {
+        font-family: helvetica;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .leftbottomcontainer p {
+        font-family: helvetica;
+        line-height: 1.5;
+        font-size: 16px;
+        padding-bottom: 32px;
+        padding-top: 14px;
+        color: gray;
+    }
+    
+    .thesisright {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        float: right;
+        padding-top: 32px;
+    }
+.fisma,
+.nowandthen{
+    display: inline-block;
+    width: 423px;
+    height: 168px;
+    
+    
 }
-.learningcontainer{
-    padding-left: 24px;
+.fisma img,
+.nowandthen img{
+    width:40%;
+    float:left;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.containertitle h1{
-    text-align: center;
-    font-size: 48px;
-    font-family: helvetica;
-    font-weight: bold;
-    display: block
-}
-.learningcontainer div{
-    width:31%;
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
-    padding-right 32px;
+    margin: 16px
+}
+.fisma{
+    background-color: lightgray;
     padding-bottom: 32px;
-    background-color: white;
-    margin-top: 32px
 }
-.learningcontainer img{
-    width: 100%;    
-}
-.learningcontainer h2,
-.learningcontainer p,
-.learningcontainer span{
-    margin-left: 16px;
+.fisma h3,
+.nowandthen h3{
+    margin-top: 60px;
     font-family: helvetica;
-    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.fisma p,
+.nowandthen p{
+    font-family: helvetica;
+    font-size: 14px;
+    color: gray;
+}
+.fisma p{
+    padding-top: 30px
+}
+.entire{
 }

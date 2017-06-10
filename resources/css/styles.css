@@ -319,7 +319,7 @@
         padding-top: 8px;
     }
     
-    .textcontainer h2{
+    .textcontainer h2 {
         text-align: center;
         font-size: 48px;
         float: none;
@@ -366,42 +366,66 @@
         float: right;
         padding-top: 32px;
     }
-.fisma,
-.nowandthen{
-    display: inline-block;
-    width: 423px;
-    height: 168px;
     
+    .fisma,
+    .nowandthen {
+        display: inline-block;
+        width: 423px;
+        height: 168px;
+    }
     
+    .fisma img,
+    .nowandthen img {
+        width: 40%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin: 16px
+    }
+    
+    .fisma {
+        background-color: lightgray;
+        padding-bottom: 32px;
+    }
+    
+    .fisma h3,
+    .nowandthen h3 {
+        margin-top: 60px;
+        font-family: helvetica;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    
+    .fisma p,
+    .nowandthen p {
+        font-family: helvetica;
+        font-size: 14px;
+        color: gray;
+    }
+    
+    .fisma p {
+        padding-top: 30px
+    }
+.clear {
+    clear:both;
+    line-height:0;
 }
-.fisma img,
-.nowandthen img{
-    width:40%;
-    float:left;
-    display: flex;
-    flex-direction: column;
-    margin: 16px
+    
+.entire {
+    border-bottom: 1px solid gray;
 }
-.fisma{
-    background-color: lightgray;
-    padding-bottom: 32px;
-}
-.fisma h3,
-.nowandthen h3{
-    margin-top: 60px;
-    font-family: helvetica;
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
-.fisma p,
-.nowandthen p{
+.footer,
+.footer2{
     font-family: helvetica;
     font-size: 14px;
-    color: gray;
+    margin-left: 24px;
+    display: inline-block;
+    margin-top: 14px;
+    padding-bottom: 32px;
 }
-.fisma p{
-    padding-top: 30px
-}
-.entire{
+.footer2{
+width: 75%;
+    text-align: right;
+    word-spacing: 20px
 }
